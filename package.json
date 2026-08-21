@@ -2,10 +2,6 @@
   "name": "maqam-mern-root",
   "version": "1.0.0",
   "description": "Full-stack MERN recreation of Maqam Cemetery Finder and Grave Management",
-  "workspaces": [
-    "client",
-    "server"
-  ],
   "scripts": {
     "install-all": "npm install --prefix server && npm install --prefix client",
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
